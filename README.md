@@ -20,6 +20,8 @@ A curated list of top knowledge ingestion engines, Intelligent Document Processi
 
 
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
@@ -42,33 +44,28 @@ A curated list of top knowledge ingestion engines, Intelligent Document Processi
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Intelligent Document Processing (IDP) and document AI market is valued at approximately **$3.0B – $3.9B** and is projected to expand rapidly at a CAGR of **16% – 33%**, heading toward $7B – $30B+ by the 2030s. The sector is **moderately fragmented** (top 4–5 hyperscalers and legacy capture giants control ~38%–45% of total revenue with an HHI around 900–1,100), where foundational cloud vendors coexist alongside specialized vertical extraction players and fast-moving GenAI/RAG-native parsing startups.
+
+---
+
 ## SaaS/Hosted Platforms
-
-
 
 Commercial, cloud-hosted Intelligent Document Processing (IDP) APIs, enterprise OCR services, and managed RAG document ingestion platforms.
 
-
-
-* **[Unstructured.io Platform](https://unstructured.io)** - Commercial serverless ETL+ platform for ingesting, transforming, and chunking unstructured PDFs, Office docs, and HTML for LLMs.
-
-* **[LlamaParse (LlamaCloud)](https://llamaindex.ai)** - GenAI-native cloud document parsing service by LlamaIndex engineered for complex tables, embedded charts, and multi-column PDFs.
-
-* **[Amazon Textract](https://amazon.com)** - Managed AWS machine learning service that automatically extracts printed text, handwriting, forms, and tables from scanned documents.
-
-* **[Google Cloud Document AI](https://google.com)** - Enterprise cloud document understanding platform transforming unstructured documents into structured JSON via specialized processors.
-
-* **[Azure AI Document Intelligence (Form Recognizer)](https://microsoft.com)** - Microsoft's managed AI service applying machine learning to extract key-value pairs, tables, and structure from documents.
-
-* **[Rossum](https://rossum.ai)** - Cloud-native, AI-first Intelligent Document Processing (IDP) platform automating transactional document workflows like invoices and purchase orders.
-
-* **[Klippa DocHorizon](https://klippa.com)** - Commercial AI-powered IDP SaaS platform offering OCR, data extraction, document classification, and fraud detection APIs.
-
-* **[Docsumo](https://docsumo.com)** - Cloud document AI platform built for automated data capture, validation, and straight-through processing of financial documents.
-
-* **[Nanonets](https://nanonets.com)** - Commercial no-code AI workflow automation and OCR platform for extracting structured data from unstructured documents.
-
-* **[Hyperscience](https://hyperscience.com)** - Enterprise automation platform utilizing proprietary machine learning models for high-accuracy handwritten and printed document ingestion.
+| Product | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Azure AI Document Intelligence](https://microsoft.com)** | **$3.1T+** Market Cap / $245B+ Annual Rev | $1.50 / 1,000 pages (Read OCR); $10.00 / 1,000 pages (Layout/Prebuilt); $30.00 / 1,000 pages (Custom) | **500 pages/month free forever** (F0 Tier, max 2 pages per transaction) | Enterprise cloud document AI platform extracting text, key-value pairs, tables, and structures from docs. |
+| **[Amazon Textract](https://amazon.com)** | **$2.1T+** Market Cap / $620B+ Annual Rev | $1.50 / 1,000 pages (Detect Text); $15.00 / 1,000 pages (Tables); $50.00 / 1,000 pages (Forms) | **3-Month Free Trial**: 1,000 pages/mo (Detect Text), 100 pages/mo (Tables/Forms/Expenses), 2,000 pages/mo (Lending) | Managed AWS machine learning service automatically extracting printed text, forms, and tables. |
+| **[Google Cloud Document AI](https://google.com)** | **$2.0T+** Market Cap / $350B+ Annual Rev | $1.50 / 1,000 pages (Enterprise OCR); $10.00 / 1,000 pages (Layout); $30.00 / 1,000 pages (Form Parser) | **1,000 pages/month free forever** (Enterprise Document OCR) + **90-Day Free Trial** with $300 GCP credits | Enterprise document understanding platform transforming unstructured documents into structured JSON. |
+| **[Hyperscience](https://hyperscience.com)** | **$1.6B** Valuation / ~$40M–$50M ARR | Enterprise subscription starting at ~$40,000+/year (~$3,330/month) based on document volume | **Sales-led custom pilot/demo only** (no public self-serve free trial or free tier) | Enterprise ML automation platform built for high-accuracy handwritten and complex document ingestion. |
+| **[Rossum](https://rossum.ai)** | **~$500M–$1B** Valuation (Acquired by Coupa) / ~$22M–$28M ARR | Starter tier starting at $18,000/year (~$1,500/month) for core AI extraction & email/API ingestion | **14-day free trial** with sample document workflows (no ongoing free tier) | Cloud-native, AI-first transactional document and invoice processing platform. |
+| **[Unstructured.io Platform](https://unstructured.io)** | **$230M** Valuation / ~$7M–$12M ARR | Serverless Pay-as-you-go starting at $0.010 – $0.015 / page ($10 – $15 / 1,000 pages) | **10,000 pages free one-time signup credit** (serverless API, no credit card required) | Commercial ETL+ platform ingesting, transforming, and chunking unstructured PDFs/docs for LLMs. |
+| **[LlamaParse (LlamaCloud)](https://llamaindex.ai)** | **$89M** Valuation / ~$5M+ ARR | Pay-as-you-go starting at $1.25 – $1.50 / 1,000 credits; Pro plan starting at $500/month | **10,000 free credits/month free forever** ($0/month tier) | GenAI-native document parsing by LlamaIndex for complex tables, embedded charts, and multi-column PDFs. |
+| **[Nanonets](https://nanonets.com)** | **~$60M–$100M** Valuation / ~$10M–$15M ARR | Starter tier at $100/month (includes 100 credits; usage at $0.02–$0.30/block run) | **$50 free trial credits** upon sign-up (no credit card required; no permanent free tier) | No-code AI workflow automation and OCR platform extracting structured data from documents. |
+| **[Klippa DocHorizon](https://klippa.com)** | **~$20M–$50M** Valuation (Acquired by Doxis/SER Group) / ~$16M–$21.5M ARR | Custom enterprise quote; specialized modules like SpendControl start at €95/month (~$100/mo) | **Sales-assisted developer sandbox demo** with limited test credits (no permanent free tier) | AI-powered IDP and mobile scanning SDK platform providing OCR, extraction, and document classification. |
+| **[Docsumo](https://docsumo.com)** | **~$15M–$25M** Valuation / ~$10M–$12.3M ARR | Volume-based custom subscription starting at ~$500/month | **1,000 pages free trial limit** (access to pre-trained models, 10 user licenses, webhooks) | Document AI platform built for automated data capture and straight-through processing of financial docs. |
 
 
 
